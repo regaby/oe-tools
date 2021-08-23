@@ -7,4 +7,3 @@ sudo python3 get-pip.py
 sudo pip install odoo-env
 curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh
-git clone https://github.com/ntsystemwork/server-tools.git
