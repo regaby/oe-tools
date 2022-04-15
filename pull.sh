@@ -6,7 +6,7 @@
 
 repository=$1
 
-CD="/odoo_ar/odoo-15.0e/vangrow/sources"
+CD="/odoo_ar/odoo-15.0e/canal2/sources"
 
 cd "$CD/$repository"
 echo "***** actualizando repositorio $repository ******"
