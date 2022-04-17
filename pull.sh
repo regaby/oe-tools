@@ -12,4 +12,5 @@ sudo cd "$CD/$repository"
 echo "***** actualizando repositorio $repository ******"
 git pull
 echo "***** reiniciando servidor ******"
-python3 /home/grivero/multi_client_mgr/multi.py -s -r -c canal2
+cd /home/grivero/multi_client_mgr/
+python3 multi.py -s -r -c canal2
