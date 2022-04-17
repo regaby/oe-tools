@@ -12,4 +12,4 @@ cd "$CD/$repository"
 echo "***** actualizando repositorio $repository ******"
 git pull
 echo "***** reiniciando servidor ******"
-python3 ../multi_client_mgr/multi.py -s -r -c canal2
+python3 /home/grivero/multi.py -s -r -c canal2
