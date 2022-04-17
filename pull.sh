@@ -8,7 +8,7 @@ repository=$1
 
 CD="/odoo_ar/odoo-15.0e/canal2/sources"
 
-sudo cd "$CD/$repository"
+cd "$CD/$repository"
 echo "***** actualizando repositorio $repository ******"
 git pull
 echo "***** reiniciando servidor ******"
