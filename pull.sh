@@ -8,8 +8,8 @@ repository=$1
 
 CD="/odoo_ar/odoo-15.0e/canal2/sources"
 
-cd "$CD/$repository"
+sudo cd "$CD/$repository"
 echo "***** actualizando repositorio $repository ******"
 git pull
 echo "***** reiniciando servidor ******"
-python3 /home/grivero/multi.py -s -r -c canal2
+python3 /home/grivero/multi_client_mgr/multi.py -s -r -c canal2
